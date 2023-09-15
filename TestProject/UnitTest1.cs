@@ -175,7 +175,7 @@ namespace TestProject
         [Test]
         public void Week3_Day3_Test_LoginViewFile_Exists()
         {
-            string indexPath = Path.Combine(@"/home/coder/project/workspace/Week3MVC/Views/Account", "Login.cshtml");
+            string indexPath = Path.Combine(@"/home/coder/project/workspace/Gym-ADO-MVC/dotnetapp/Week3MVC/Views/Account", "Login.cshtml");
             bool indexViewExists = File.Exists(indexPath);
 
             Assert.IsTrue(indexViewExists, "Login.cshtml view file does not exist.");
